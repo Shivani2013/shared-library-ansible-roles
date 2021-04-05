@@ -2,7 +2,7 @@
 # tasks file for sample-role
 
 - name: i am another role in shaed roles
-  shell: echo "i am another role in shaed roles"
+  shell: echo "i am another role in shared roles"
   register: op
 - name: debug
   debug:
